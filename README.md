@@ -1,4 +1,4 @@
-# learn-rust-guide
+# happy-rust
 rust 学习笔记
 
 ## 安装
