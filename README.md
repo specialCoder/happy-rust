@@ -11,7 +11,7 @@ $ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 ```bash
 Rust is installed now. Great!
 ```
-安装成功之后可以显示安装的版本：
+查看安装的版本：
 ```bash
 $ rustc --version
 ```
@@ -64,8 +64,8 @@ hello_cargo
 │   |
 │   └── main.rs                 - application entry
 ├── target                      - target files
-│   ├── debug                   - debug files
-│   └── release                 - release files
+│   ├── debug/                   - debug files
+│   └── release/               - release files
 ├── Cargo.toml                  - configuration
 ├── Cargo.lock
 ```

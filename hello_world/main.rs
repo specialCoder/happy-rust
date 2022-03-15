@@ -1,7 +1,12 @@
+
+fn printMyStr(){
+    println!("next peint!")
+}
 // 每个文件必须有个main函数
 // fuction 定义语法： fn xxx(){}
 fn main(){
-    println!("hello world"); // print-line
+    // println!("hello world /n next line"); // print-line
+    println(printMyStr())
 }
 
 // 首先 Rust 的缩进风格使用 4 个空格，而不是 1 个制表符（tab）。
