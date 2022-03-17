@@ -103,6 +103,14 @@ $ ./target/debug/hello_cargo # or .\target\debug\hello_cargo.exe on Windows
 ```
 Hello, world!
 ```
+## Rust 世实践
+### 前端
+- [Rust Is The Future of JavaScript Infrastructure](https://link.segmentfault.com/?enc=XQ7kQOvV3SoOuLKrw9UPbA%3D%3D.E1cynTB1wbFgneqX8v4lKv8lJs4ovtomecY%2BOafTVgMYOadYoR1MEJ8Vi7MhYyKQ)
+
+### 硬件
+- [Rust 开发树莓派操作系统](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)
+- [智能机器人](https://link.segmentfault.com/?enc=IBcjBz8NI4pKodAmj1CL2A%3D%3D.OUka%2BOCO1SwE7mnktRXjbob%2BZ0XM66rqJtOIJgIdPxBet9OPtlRRZWTONV6fkxqKysNvYmx%2Fg7a1tBcYfKoLVB5dQPXWU6NpLtPfQWL%2F3Jf3VKU%2BME4fTxTpcyhlKuGvncGl7d5wZ2VJ5uBcEPgxy5lOwdzBCFqLmcd4vsR98Vham4zUnQyLnRYON3w%2B7rTZ)
+
 
 ## 参考资料
 - [Rust 中文官网](https://www.rust-lang.org/zh-CN/)
@@ -112,3 +120,4 @@ Hello, world!
 - [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
 - [Rust small exercises](https://github.com/rust-lang/rustlings/)
 - [在线运行 Rust](https://play.rust-lang.org/)
+  
