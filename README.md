@@ -103,7 +103,7 @@ $ ./target/debug/hello_cargo # or .\target\debug\hello_cargo.exe on Windows
 ```
 Hello, world!
 ```
-## Rust 世实践
+## Rust 实践
 ### 前端
 - [Rust Is The Future of JavaScript Infrastructure](https://link.segmentfault.com/?enc=XQ7kQOvV3SoOuLKrw9UPbA%3D%3D.E1cynTB1wbFgneqX8v4lKv8lJs4ovtomecY%2BOafTVgMYOadYoR1MEJ8Vi7MhYyKQ)
 
