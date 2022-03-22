@@ -110,6 +110,7 @@ Hello, world!
 ### 硬件
 - [Rust 开发树莓派操作系统](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials)
 - [智能机器人](https://link.segmentfault.com/?enc=IBcjBz8NI4pKodAmj1CL2A%3D%3D.OUka%2BOCO1SwE7mnktRXjbob%2BZ0XM66rqJtOIJgIdPxBet9OPtlRRZWTONV6fkxqKysNvYmx%2Fg7a1tBcYfKoLVB5dQPXWU6NpLtPfQWL%2F3Jf3VKU%2BME4fTxTpcyhlKuGvncGl7d5wZ2VJ5uBcEPgxy5lOwdzBCFqLmcd4vsR98Vham4zUnQyLnRYON3w%2B7rTZ)
+- [物联网领域](https://blog.csdn.net/HaaSTech/article/details/116845628)
 
 
 ## 参考资料
