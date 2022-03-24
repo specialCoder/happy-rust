@@ -1,3 +1,4 @@
+use std::env;
 use std::fs;
 use std::error::Error;
 
@@ -16,16 +17,30 @@ pub struct Config{
 
 impl Config {
     // &'static str 是字符串字面值的类型，也是目前的错误信息。
-    pub fn new(args: &[String]) -> Result<Config, &'static str> {
-        if args.len() < 3 {
-            // panic!("args array length is not enough!");
-            return Err("args array length is not enough!");
-        }
+    pub fn new(mut args: env::Args) -> Result<Config, &'static str> {
+        // if args.len() < 3 {
+        //     // panic!("args array length is not enough!");
+        //     return Err("args array length is not enough!");
+        // }
 
-        let query = &args[1];
-        let filename = &args[2];
+        args.next();
+        // let query = &args[1];
+        // let filename = &args[2];
         // (query, filename)
         // Ok(Config, {query, filename})
+
+        let query = match args.next() {
+            Some(arg) => arg,
+            None => return Err("Didn't get a query string"),
+        };
+
+        let filename = match args.next() {
+            Some(arg) => arg,
+            None => return Err("Didn't get a file name"),
+        };
+
+        let case_sensitive = env::var("CASE_INSENSITIVE").is_err();
+
         Ok(Config {
             query: query.clone(),
             filename: filename.clone()
@@ -42,8 +57,12 @@ pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
         }
     }
 
-    result
+    // result
     // vec![]
+    contents
+    .lines()
+    .filter(|line| line.contains(query))
+    .collect()
 }
 
 #[cfg(test)]
